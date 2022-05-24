@@ -1,4 +1,4 @@
-<Activity mc:Ignorable="sap sap2010" x:Class="TC_109" mva:VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="579.333333333333,1540.66666666667" sap2010:WorkflowViewState.IdRef="TC_109_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:a="clr-namespace:AdactinApplication;assembly=AdactinApplication" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:mva="clr-namespace:Microsoft.VisualBasic.Activities;assembly=System.Activities" xmlns:ra="clr-namespace:ReporterForUiPath.Activities;assembly=ReporterForUiPath.Activities" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=mscorlib" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<Activity mc:Ignorable="sap sap2010" x:Class="TC_109" mva:VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="556,1547.33333333333" sap2010:WorkflowViewState.IdRef="TC_109_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:a="clr-namespace:AdactinApplication;assembly=AdactinApplication" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:mva="clr-namespace:Microsoft.VisualBasic.Activities;assembly=System.Activities" xmlns:ra="clr-namespace:ReporterForUiPath.Activities;assembly=ReporterForUiPath.Activities" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=mscorlib" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <TextExpression.NamespacesForImplementation>
     <sco:Collection x:TypeArguments="x:String">
       <x:String>System.Activities</x:String>
@@ -79,22 +79,22 @@
       <AssemblyReference>NPOI</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="TC_109" sap:VirtualizedContainerService.HintSize="476,1476" sap2010:WorkflowViewState.IdRef="Sequence_5">
+  <Sequence DisplayName="TC_109" sap:VirtualizedContainerService.HintSize="476,1482.66666666667" sap2010:WorkflowViewState.IdRef="Sequence_5">
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <ra:StartTest ContinueOnError="{x:Null}" TagName="{x:Null}" TestDescription="{x:Null}" testList="{x:Null}" DisplayName="Start Test" sap:VirtualizedContainerService.HintSize="434,84.6666666666667" sap2010:WorkflowViewState.IdRef="StartTest_1" Priority="Low" TestName="Test Case 109" />
+    <ra:StartTest ContinueOnError="{x:Null}" TagName="{x:Null}" TestDescription="{x:Null}" testList="{x:Null}" DisplayName="Start Test" sap:VirtualizedContainerService.HintSize="434,85.3333333333333" sap2010:WorkflowViewState.IdRef="StartTest_1" Priority="Low" TestName="Test Case 109" />
     <a:Login_Hotel sap:VirtualizedContainerService.HintSize="434,22" sap2010:WorkflowViewState.IdRef="Login_Hotel_1" Password="Amaresh@123" Username="Gollaamaresh2" />
-    <ra:StepStatus ActualResult="{x:Null}" CodeBlock="{x:Null}" ContinueOnError="{x:Null}" ExpectedResult="{x:Null}" statusInfo="{x:Null}" Description="Login to Adactin Application" DisplayName="Step Status" sap:VirtualizedContainerService.HintSize="434,133.333333333333" sap2010:WorkflowViewState.IdRef="StepStatus_1" Name="login " Status="Compare" TakeScreenshot="True" />
-    <uix:NApplicationCard WebDriverMode="{x:Null}" AttachMode="ByInstance" DisplayName="Use Browser Chrome: Adactin.com - Search Hotel" sap:VirtualizedContainerService.HintSize="434,52" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" ScopeGuid="a570e205-c6b3-4ab7-a7e7-6d02864ce0f1" Version="V1">
+    <ra:StepStatus ActualResult="{x:Null}" CodeBlock="{x:Null}" ContinueOnError="{x:Null}" ExpectedResult="{x:Null}" statusInfo="{x:Null}" Description="Login to Adactin Application" DisplayName="Step Status" sap:VirtualizedContainerService.HintSize="434,134.666666666667" sap2010:WorkflowViewState.IdRef="StepStatus_1" Name="login " Status="Compare" TakeScreenshot="True" />
+    <uix:NApplicationCard WebDriverMode="{x:Null}" AttachMode="ByInstance" DisplayName="Use Browser Chrome: Adactin.com - Search Hotel" sap:VirtualizedContainerService.HintSize="434,52.6666666666667" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" ScopeGuid="a570e205-c6b3-4ab7-a7e7-6d02864ce0f1" Version="V1">
       <uix:NApplicationCard.Body>
         <ActivityAction x:TypeArguments="x:Object">
           <ActivityAction.Argument>
             <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
           </ActivityAction.Argument>
-          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="376,2486" sap2010:WorkflowViewState.IdRef="Sequence_4">
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="376,2488" sap2010:WorkflowViewState.IdRef="Sequence_4">
             <Sequence.Variables>
               <Variable x:TypeArguments="x:String" Default="23/05/2022" Name="Checkindate" />
               <Variable x:TypeArguments="x:String" Default="26/05/2022" Name="Checkoutdate" />
@@ -107,7 +107,7 @@
                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
               </scg:Dictionary>
             </sap:WorkflowViewStateService.ViewState>
-            <uix:NSelectItem DisplayName="Select Item 'Location*'" sap:VirtualizedContainerService.HintSize="334,157.333333333333" sap2010:WorkflowViewState.IdRef="NSelectItem_1" Item="Sydney" ScopeIdentifier="a570e205-c6b3-4ab7-a7e7-6d02864ce0f1" Version="V1">
+            <uix:NSelectItem DisplayName="Select Item 'Location*'" sap:VirtualizedContainerService.HintSize="334,158" sap2010:WorkflowViewState.IdRef="NSelectItem_1" Item="Sydney" ScopeIdentifier="a570e205-c6b3-4ab7-a7e7-6d02864ce0f1" Version="V1">
               <uix:NSelectItem.Items>
                 <scg:List x:TypeArguments="x:String" Capacity="9">
                   <x:String>- Select Location -</x:String>
@@ -131,7 +131,7 @@
                 </uix:TargetAnchorable>
               </uix:NSelectItem.Target>
             </uix:NSelectItem>
-            <uix:NSelectItem DisplayName="Select Item 'Hotels'" sap:VirtualizedContainerService.HintSize="334,157.333333333333" sap2010:WorkflowViewState.IdRef="NSelectItem_2" Item="Hotel Creek" ScopeIdentifier="a570e205-c6b3-4ab7-a7e7-6d02864ce0f1" Version="V1">
+            <uix:NSelectItem DisplayName="Select Item 'Hotels'" sap:VirtualizedContainerService.HintSize="334,158" sap2010:WorkflowViewState.IdRef="NSelectItem_2" Item="Hotel Creek" ScopeIdentifier="a570e205-c6b3-4ab7-a7e7-6d02864ce0f1" Version="V1">
               <uix:NSelectItem.Items>
                 <scg:List x:TypeArguments="x:String" Capacity="5">
                   <x:String>- Select Hotel -</x:String>
@@ -151,7 +151,7 @@
                 </uix:TargetAnchorable>
               </uix:NSelectItem.Target>
             </uix:NSelectItem>
-            <uix:NSelectItem DisplayName="Select Item 'Room Type'" sap:VirtualizedContainerService.HintSize="334,157.333333333333" sap2010:WorkflowViewState.IdRef="NSelectItem_3" Item="Standard" ScopeIdentifier="a570e205-c6b3-4ab7-a7e7-6d02864ce0f1" Version="V1">
+            <uix:NSelectItem DisplayName="Select Item 'Room Type'" sap:VirtualizedContainerService.HintSize="334,158" sap2010:WorkflowViewState.IdRef="NSelectItem_3" Item="Standard" ScopeIdentifier="a570e205-c6b3-4ab7-a7e7-6d02864ce0f1" Version="V1">
               <uix:NSelectItem.Items>
                 <scg:List x:TypeArguments="x:String" Capacity="5">
                   <x:String>- Select Room Type -</x:String>
@@ -171,7 +171,7 @@
                 </uix:TargetAnchorable>
               </uix:NSelectItem.Target>
             </uix:NSelectItem>
-            <uix:NSelectItem DisplayName="Select Item 'Number of Rooms*'" sap:VirtualizedContainerService.HintSize="334,157.333333333333" sap2010:WorkflowViewState.IdRef="NSelectItem_4" Item="2 - Two" ScopeIdentifier="a570e205-c6b3-4ab7-a7e7-6d02864ce0f1" Version="V1">
+            <uix:NSelectItem DisplayName="Select Item 'Number of Rooms*'" sap:VirtualizedContainerService.HintSize="334,158" sap2010:WorkflowViewState.IdRef="NSelectItem_4" Item="2 - Two" ScopeIdentifier="a570e205-c6b3-4ab7-a7e7-6d02864ce0f1" Version="V1">
               <uix:NSelectItem.Items>
                 <scg:List x:TypeArguments="x:String" Capacity="11">
                   <x:String>- Select Number of Rooms -</x:String>
@@ -288,29 +288,29 @@
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
     </uix:NApplicationCard>
-    <uix:NApplicationCard WebDriverMode="{x:Null}" AttachMode="ByInstance" DisplayName="Use Browser Chrome: Adactin.com - Hotel Booking Confirmation" sap:VirtualizedContainerService.HintSize="434,932" sap2010:WorkflowViewState.IdRef="NApplicationCard_3" InteractionMode="DebuggerApi" OpenMode="IfNotOpen" ScopeGuid="8d23e42e-ca9f-4aa2-b478-c3afebc2d711" Version="V1">
+    <uix:NApplicationCard WebDriverMode="{x:Null}" AttachMode="ByInstance" DisplayName="Use Browser Chrome: Adactin.com - Hotel Booking Confirmation" sap:VirtualizedContainerService.HintSize="434,936" sap2010:WorkflowViewState.IdRef="NApplicationCard_3" InteractionMode="DebuggerApi" OpenMode="IfNotOpen" ScopeGuid="8d23e42e-ca9f-4aa2-b478-c3afebc2d711" Version="V1">
       <uix:NApplicationCard.Body>
         <ActivityAction x:TypeArguments="x:Object">
           <ActivityAction.Argument>
             <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
           </ActivityAction.Argument>
-          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="376,714.666666666667" sap2010:WorkflowViewState.IdRef="Sequence_23">
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="376,718" sap2010:WorkflowViewState.IdRef="Sequence_23">
             <sap:WorkflowViewStateService.ViewState>
               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
               </scg:Dictionary>
             </sap:WorkflowViewStateService.ViewState>
-            <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="334,52" sap2010:WorkflowViewState.IdRef="CommentOut_2">
+            <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="334,52.6666666666667" sap2010:WorkflowViewState.IdRef="CommentOut_2">
               <ui:CommentOut.Body>
-                <Sequence DisplayName="Ignored Activities" sap:VirtualizedContainerService.HintSize="722,490" sap2010:WorkflowViewState.IdRef="Sequence_22">
+                <Sequence DisplayName="Ignored Activities" sap:VirtualizedContainerService.HintSize="722,491.333333333333" sap2010:WorkflowViewState.IdRef="Sequence_22">
                   <sap:WorkflowViewStateService.ViewState>
                     <scg:Dictionary x:TypeArguments="x:String, x:Object">
                       <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                     </scg:Dictionary>
                   </sap:WorkflowViewStateService.ViewState>
-                  <uix:NCheckState Exists="{x:Null}" DisplayName="Check App State 'Logout'" sap:VirtualizedContainerService.HintSize="680,398" sap2010:WorkflowViewState.IdRef="NCheckState_7" ScopeIdentifier="8d23e42e-ca9f-4aa2-b478-c3afebc2d711" Timeout="5" Version="V1">
+                  <uix:NCheckState Exists="{x:Null}" DisplayName="Check App State 'Logout'" sap:VirtualizedContainerService.HintSize="680,399.333333333333" sap2010:WorkflowViewState.IdRef="NCheckState_7" ScopeIdentifier="8d23e42e-ca9f-4aa2-b478-c3afebc2d711" Timeout="5" Version="V1">
                     <uix:NCheckState.IfExists>
-                      <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="250,85.3333333333333" sap2010:WorkflowViewState.IdRef="Sequence_20">
+                      <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="250,86" sap2010:WorkflowViewState.IdRef="Sequence_20">
                         <sap:WorkflowViewStateService.ViewState>
                           <scg:Dictionary x:TypeArguments="x:String, x:Object">
                             <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -347,18 +347,18 @@
                 </scg:Dictionary>
               </sap:WorkflowViewStateService.ViewState>
             </ui:CommentOut>
-            <uix:NClick ClickType="Single" DelayBefore="7" DisplayName="Click 'Logout'" sap:VirtualizedContainerService.HintSize="334,157.333333333333" sap2010:WorkflowViewState.IdRef="NClick_7" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="8d23e42e-ca9f-4aa2-b478-c3afebc2d711" Version="V1">
+            <uix:NClick ClickType="Single" DelayBefore="7" DisplayName="Click 'Logout'" sap:VirtualizedContainerService.HintSize="334,158" sap2010:WorkflowViewState.IdRef="NClick_7" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="8d23e42e-ca9f-4aa2-b478-c3afebc2d711" Version="V1">
               <uix:NClick.Target>
-                <uix:TargetAnchorable Accuracy="0.9" BrowserURL="http://adactinhotelapp.com/BookingConfirm.php" DesignTimeRectangle="635, 839, 150, 45" ElementType="Button" FriendlyName="'Logout'" FullSelectorArgument="&lt;webctrl tableRow='8' tag='TABLE' /&gt;&lt;webctrl id='logout' tableRow='19' tag='INPUT' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='TABLE' /&gt;&lt;webctrl id='logout' type='button' tag='INPUT' class='reg_button' aaname='Logout' check:text='Logout' /&gt;" Guid="833f9580-f41d-4fa2-884a-ffd6981b4b1c" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAJoAAAAxCAYAAAAiJLA6AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAAJoSURBVHhe7d2xcepAFIVhCqILOqADmiCgAyiBSsjICcmJyaAEvTnMu/h432r9YOBiwR98MzYraaXZf1YeJ4xOp1MHPBuhIcW30LbbbbdcLrv5fA7cTQ2pJW/rGpoGVqtVt9/vu/P5DNxNDaklj+0amiokMjyKWlJT/4SmLa92AnAvNUVoeDpCQwpCQwpCQwpCQwpCQwpCQwpCQwpCQwpCQ4pBh7Zer7vRaHSx2Wyqx7wrPa+evzb2GxHaAC0Wi8szE1qSTwxNzxnPTGhJCI3QUtwb2m6368bj8fVc0euodqz44op+/2nueL0Fzad5/Zjj8djNZrPL+GQy6Q6Hw3XM7zHurbxmGEJwHxean1MqF7t1/HQ6vf7sc+t8XcePdR4Fob1paL54WmAttD7XuXGdWNTyeA+hjM/n9hjicw/Kd7ZbQxO/1yEEFj4qtIjAF7s15tf3RfVAJObui6NvjNDeMDR/pfluFmoL2AqzNnfrfmpRERqhXT4jtMchtL8I7bk+JjRphVMb8+v7onogEnP3xdE35tcp78mDIrQX8xBaYqF8kXxX61tUj8N3nHLeCK0vwFZQmi+Oj3B89xVCe7FbQ/vpnPL11Tr+Ef9HEw+nT1/8YQjBfVxoUouhtVg+T+xI/pmHVjtHahGHMjbdrwdV3n/teB//jQYd2itFSOWrEHWE1uA7h+9IviO2dip8IbSG2iu21Hrl4guh/Qf9DVQGxivzNoSGFISGFISGFISGFISGFISGFISGFISGFISGFNXQ+J4BPFLv9wzwzSl4FDXU+80pEZsq1JYH3EsNeWTyLTTgWQgNCU7dH29ot5EqBCG4AAAAAElFTkSuQmCC" InformativeScreenshot="6518c5f84ba681cbb09c30bd32721d59.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Adactin.com - Hotel Booking Confirmation' /&gt;" SearchSteps="Selector, Image" Visibility="Interactive">
+                <uix:TargetAnchorable BrowserURL="http://adactinhotelapp.com/BookingConfirm.php" DesignTimeRectangle="635, 839, 150, 45" ElementType="Button" FriendlyName="'Logout'" FullSelectorArgument="&lt;webctrl tableRow='8' tag='TABLE' /&gt;&lt;webctrl id='logout' tableRow='19' tag='INPUT' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='TABLE' /&gt;&lt;webctrl id='logout' type='button' tag='INPUT' class='reg_button' aaname='Logout' check:text='Logout' /&gt;" Guid="8791f552-425a-492b-9e47-42f08baefe36" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAJoAAAAxCAYAAAAiJLA6AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAAJoSURBVHhe7d2xcepAFIVhCqILOqADmiCgAyiBSsjICcmJyaAEvTnMu/h432r9YOBiwR98MzYraaXZf1YeJ4xOp1MHPBuhIQWhIcW30LbbbbdcLrv5fA7cTQ2pJW/rGpoGVqtVt9/vu/P5DNxNDaklj+0amiokMjyKWlJT/4SmLa92AnAvNUVoeDpCQwpCQwpCQwpCQwpCQwpCQwpCQwpCQwpCQ4pBh7Zer7vRaHSx2Wyqx7wrPa+evzb2GxHaAC0Wi8szE1qSTwxNzxnPTGhJCI3QUtwb2m6368bj8fVc0euodqz44op+/2nueL0Fzad5/Zjj8djNZrPL+GQy6Q6Hw3XM7zHurbxmGEJwHxean1MqF7t1/HQ6vf7sc+t8XcePdR4Fob1paL54WmAttD7XuXGdWNTyeA+hjM/n9hjicw/Kd7ZbQxO/1yEEFj4qtIjAF7s15tf3RfVAJObui6NvjNDeMDR/pfluFmoL2AqzNnfrfmpRERqhXT4jtMchtL8I7bk+JjRphVMb8+v7onogEnP3xdE35tcp78mDIrQX8xBaYqF8kXxX61tUj8N3nHLeCK0vwFZQmi+Oj3B89xVCe7FbQ/vpnPL11Tr+Ef9HEw+nT1/8YQjBfVxoUouhtVg+T+xI/pmHVjtHahGHMjbdrwdV3n/teB//jQYd2itFSOWrEHWE1uA7h+9IviO2dip8IbSG2iu21Hrl4guh/Qf9DVQGxivzNoSGFISGFISGFISGFISGFISGFISGFISGFISGFNXQ+J4BPFLv9wzwzSl4FDXU+80pEZsq1JYH3EsNeWTyLTTgOU7dH3bUt5FhCf3HAAAAAElFTkSuQmCC" InformativeScreenshot="3c9375da439d3cc7a5eb1fe30076b895.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Adactin.com - Hotel Booking Confirmation' /&gt;" SearchSteps="Selector" Visibility="Interactive">
                   <uix:TargetAnchorable.Anchors>
-                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
-                      <uix:Target DesignTimeRectangle="477, 839, 150, 45" ElementType="Button" FriendlyName="'My Itinerary'" FullSelectorArgument="&lt;webctrl tableRow='8' tag='TABLE' /&gt;&lt;webctrl id='my_itinerary' tableRow='19' tag='INPUT' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='TABLE' /&gt;&lt;webctrl id='my_itinerary' type='button' tag='INPUT' class='reg_button' aaname='My Itinerary' check:text='My Itinerary' /&gt;" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAJoAAAAxCAYAAAAiJLA6AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAAPnSURBVHhe7Z0xUuNAEEV9IE4BN+AGFDkhATkBHIGclJgqAqoICQnIiMnMEbT1XfVV383MSLal1nr3B6+AUaunp/tJ3o28Wq/XnTFzY9FMCluivb6+dnd3d9319bUxewOH4JK61YuGC/f3993Hx0f38/NjzN7AIbiksvWiwUJLZqYCLsGpX6LhlVe6wZh9gVMWzcyORTMpWDSTgkUzKVg0k4JFMylYNJOCRTMpWDSTgkUzKaSI9vDw0K1Wq56Tk5Pu/f39V9zNzc1W3MXFRff9/f0rbh+wH/ZFXuwTr399fW3WdT/WU6vXjGcR0cDz8/NWDAYMsTQmSzTUUtrPok3HYqLFYasIJEM0vMnOzs4m389sky7a6enpZuBxqIw5Pz/vYy3av0O6aBAJxI8jfkzxJwf/+fnZFKEmUKQUx4/MCPdhLVprzKN/6726d2kvzUlwH+7HdZz58fGxj9e82iMSzx7r1HsuLy/73+M/YQBjSzXuS7poaNjV1dXmd6zjOt8qteby/tLBNXepaSQ2HmuHilaD+YnWGNGaVbQIcrSuA9aNXLU6sfby8tI/vLHWud7wi4j29PS0dUgOXK/xbxxUm4ZczKuNH2pKSTTQauwY0ViPriMf8sZ1xmrdGqvrIEqgDwYF1XtadarQgGfT/UFpjylIFw0HZBN4SF7Xa/ibg9dmcg15S0OsobE6wENEGxPPtThQzTMkzRC71glqQtXqPZRFRNPh4g3G5iKu1iDm0GaW1mpoXtTA9UNE0zyleBWnBR8SjR8zaJUFjK0T6Ll5vbQ2FYuIhjUO5fb2dnM4NkkbpIPXdeTToURBStQa/zeIxjwaXxONe5QYWydhLu5Ve8tNwWKi6RrgYbVBtcFj/e3trY8b05Ra47NEq4mjDMXHnvHcu9ZJNAa5mCf2YQrSRcPvWNOnRw/XGjzvQXP4P9cxAwS1xs8pWm2tRku01rVd6ySaEz/ZB85oShYTTRuh663B6zVSa2Kk1vi5RdMHSvOXYlsy6bVa/rF1KjqbmGNKFhNNGwfQMKy3Bg84oHjfELXGxzoA9y3J0BpgKV7XS9RqiaKBKEUJ9qNVp6JxoNTzKVhMNFAazJBo2pjSMGq0Gq97at5Sfa08pXiibx4SH5Ih0UCUDXtq/aypVWeEdQOdz5SkiDYluzTQjIOilR6QqTgq0fSJn7Mp/xP6pp3zwT0K0eJH29xN+R+IH8FzP7hHKZolOxwVLePT4ShEM8ePRTMpWDSTgkUzKVg0k4JFMylYNJOCRTMpWDSTQlE0f8+AmZLq9wz4m1PMVMCh6jenUDZYiFeeMfsCh1QysCWaMXNh0UwC6+4PQY4GrlR1FVwAAAAASUVORK5CYII=" SearchSteps="Selector, Image" />
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                      <uix:Target DesignTimeRectangle="477, 839, 150, 45" ElementType="Button" FriendlyName="'My Itinerary'" FullSelectorArgument="&lt;webctrl tableRow='8' tag='TABLE' /&gt;&lt;webctrl id='my_itinerary' tableRow='19' tag='INPUT' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='TABLE' /&gt;&lt;webctrl id='my_itinerary' type='button' tag='INPUT' class='reg_button' aaname='My Itinerary' check:text='My Itinerary' /&gt;" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAJoAAAAxCAYAAAAiJLA6AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAAPkSURBVHhe7Z0xTiNBEEV9Hi4BJ4ATIFI4ADl3ICclhICIkJyMlJDUV5jVR/qj76K7PbZ7avDygydwd091ddWbmV3tSl6t1+vBmLmxaCYFi2ZS2BDt6elpuL6+Hi4uLozZGzgEl9StUTRM3NzcDG9vb8PX15cxewOH4JLKNooGCy2Z6QVcglM/RMMjr3SBMfsCpyyamR2LZlKwaCYFi2ZSsGgmBYtmUrBoJgWLZlKwaCYFi2ZSSBHt/v5+WK1WIycnJ8V/S729vd1Yd3l5OXx+fv5Ytw/YD/siLvaJ8x8fH9/juh/zqeVrprOIaOD5+XljDRoMsXRNlmjIpbSfRevHYqLFZqsIJEM0PMnOzs6672c2SRft9PT0u+GxqVxzfn4+rrVo/w/poiE2iK8jvqb4k41/f39vilATKFJax1dmhPswF801xtHPeq3uXdpLYxJch+sxjzM/PDyM6zWu1ojEs8c89Zqrq6vx9/hHGMC1pRz3JV00FAz/4xK/YxzzfKrUisvrSwfX2KWikVh4jB0qWg3GJ5pjRHNW0SKI0ZoHzBuxanli7OXlZbx5Y65zPeEXEe3x8XHjkGy4zvEzDqpFQyzG1cJvK0pJNNAq7BTRmI+OIx7ixnGu1bx1rY6DKIHeGBRUr2nlqUIDnk33B6U9epAuGg7IIvCQnNc5fGbjtZgcQ9xSE2voWm3gIaJNWc+x2FCNs02abeyaJ6gJVcv3UBYRTZuLJxiLi3W1AjGGFrM0VkPjIgeOHyKaximtV3Fa8CbR9VMarbKAqXkCPTfnS2O9WEQ0jLEpd3d334djkbRA2ngdRzxtShSkRK3wv0E0xtH1NdG4R4mpeRLG4l61p1wPFhNNxwAPqwWqNR7jr6+v47opRakVPku0mjjKtvWxZjz3rnkSXYNYjBPr0IN00fA7xvTu0cO1Gs9rUBz+zXVKA0Gt8HOKVhur0RKtNbdrnkRj4ifrwB71ZDHRtBA63mq8zpFaESO1ws8tmt5QGr+0tiWTztXiT81T0d7EGD1ZTDQtHEDBMN5qPGCD4nXbqBU+5gG4b0mGVgNL63W8RC2XKBqIUpRgPVp5KroOlGreg8VEA6XGbBNNC1NqRo1W4XVPjVvKrxWntJ7ok4fEm2SbaCDKhj01f+bUyjPCvIH2pycpovVklwKaaVC00g3Si6MSTe/4OYvyl9An7Zw37lGIFl9tcxflLxBfwXPfuEcpmiU7HBUt4+1wFKKZ48eimRQsmknBopkULJpJwaKZFCyaScGimRQsmkmhKJq/Z8D0BC4Vv2fA35xiegGHqt+cQtlgIR55xuwLHFLJwIZoxszDevgHlq+3hUaZWiMAAAAASUVORK5CYII=" SearchSteps="Selector" />
                     </scg:List>
                   </uix:TargetAnchorable.Anchors>
                 </uix:TargetAnchorable>
               </uix:NClick.Target>
             </uix:NClick>
-            <uix:NClick ClickType="Single" DisplayName="Click 'Close'" sap:VirtualizedContainerService.HintSize="334,157.333333333333" sap2010:WorkflowViewState.IdRef="NClick_8" InteractionMode="HardwareEvents" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="8d23e42e-ca9f-4aa2-b478-c3afebc2d711" Version="V1">
+            <uix:NClick ClickType="Single" DisplayName="Click 'Close'" sap:VirtualizedContainerService.HintSize="334,158" sap2010:WorkflowViewState.IdRef="NClick_8" InteractionMode="HardwareEvents" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="8d23e42e-ca9f-4aa2-b478-c3afebc2d711" Version="V1">
               <uix:NClick.Target>
                 <uix:TargetAnchorable DesignTimeRectangle="1862, 11, 69, 44" ElementType="Button" FriendlyName="'Close'" FullSelectorArgument="&lt;ctrl name='Adactin.com - Logout - Google Chrome' role='pane' /&gt;&lt;ctrl name='Google Chrome' role='pane' /&gt;&lt;ctrl name='Close' role='push button' /&gt;" FuzzySelectorArgument="&lt;ctrl name='Adactin.com - Logout - Google Chrome' role='pane' /&gt;&lt;ctrl name='Google Chrome' role='pane' /&gt;&lt;ctrl name='Close' role='push button' automationid='' check:text='Close' /&gt;" Guid="43926692-ecd6-44a8-bc35-ded0252bb4de" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAEkAAAAwCAYAAABdXlfVAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAAEqSURBVGhD7dsxDoIwGMXxXosb6OKpXLyCGx7B0clrOGjCwmSUxMER/YxNgJT0oYS+hPcl/xhSHPoLdMNpNONMremdL5Fz9+pRN6tO59n3vN7aSJeirJsV+8PsMyghRRISkJCAhAQkJCAhAQkJSEhAQgISEpCQgCiQVotlfdzmwbW+7H77X2ht7CiQ/IZRqKH3/xvN64ZufGogi+pMigGkALLoDu4+iFRAFh2S1QVJCWRRIlkeZrfeJAWyaJGs/A2UZdnnN7Q+VfRPkgHpSQrkgTxM93rq6JD6QFJCUSHFIFJB0SChACmgKJCGbnxqKAqkXzbsoUJrY0d3cDMmJCAhAQkJSEhAQgISEpCQgIQEJCQgIQEJCUhIQEICEhJQFEmVn89HhBSpjeTcCxRauE93WC0vAAAAAElFTkSuQmCC" InformativeScreenshot="788dcab2cedb38e4c8251e0964a2ed5a.png" ScopeSelectorArgument="&lt;wnd app='chrome.exe' cls='Chrome_WidgetWin_1' title='Adactin.com - Logout - Google Chrome' /&gt;" SearchSteps="Selector" Visibility="Interactive">
                   <uix:TargetAnchorable.Anchors>
@@ -369,7 +369,7 @@
                 </uix:TargetAnchorable>
               </uix:NClick.Target>
             </uix:NClick>
-            <ra:StepStatus ActualResult="{x:Null}" CodeBlock="{x:Null}" ContinueOnError="{x:Null}" ExpectedResult="{x:Null}" statusInfo="{x:Null}" Description="Close the browser" DisplayName="Step Status" sap:VirtualizedContainerService.HintSize="334,133.333333333333" sap2010:WorkflowViewState.IdRef="StepStatus_8" Name="Close the browser" Status="Compare" TakeScreenshot="True" />
+            <ra:StepStatus ActualResult="{x:Null}" CodeBlock="{x:Null}" ContinueOnError="{x:Null}" ExpectedResult="{x:Null}" statusInfo="{x:Null}" Description="Close the browser" DisplayName="Step Status" sap:VirtualizedContainerService.HintSize="334,134.666666666667" sap2010:WorkflowViewState.IdRef="StepStatus_8" Name="Close the browser" Status="Compare" TakeScreenshot="True" />
           </Sequence>
         </ActivityAction>
       </uix:NApplicationCard.Body>
